@@ -1,13 +1,14 @@
 import Vue from 'vue'
-import { Button, Checkbox, message, Row, Col, Form, Input, Radio, Icon } from 'ant-design-vue'
+import { Button, message, Row, Col, Form, Input, Icon, Layout, Menu, Breadcrumb } from 'ant-design-vue'
 
 Vue.use(Button)
-Vue.use(Checkbox)
 Vue.use(Row)
 Vue.use(Col)
 Vue.use(Form)
 Vue.use(Input)
-Vue.use(Radio)
 Vue.use(Icon)
+Vue.use(Layout)
+Vue.use(Menu)
+Vue.use(Breadcrumb)
 
 window.$Message = message

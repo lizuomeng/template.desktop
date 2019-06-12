@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/views/login'
+import Home from '@/views/Home'
 
 Vue.use(Router)
 
@@ -16,7 +17,15 @@ const routes =
     {
       path: '/login',
       name: 'login',
-      component: Login
+      component: Login,
+      meta: {
+        hiddenLayout: true
+      }
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: Home,
     }
   ]
 }
