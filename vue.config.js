@@ -1,17 +1,15 @@
 module.exports = {
   lintOnSave: false,
-  configureWebpack: {
-  },
   devServer: {
     proxy: {
-      '/api': {
-        target: '',
-        secure: false,
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': '/api'
-        }
-      }
+      // '/api': {
+      //   target: '',
+      //   secure: false,
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/api': '/api'
+      //   }
+      // }
     }
   },
   css: {
